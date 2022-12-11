@@ -1,0 +1,145 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-family:'Raleway', sans-serif;
+}
+header{
+    background:#92E0E5;
+    color:white;
+    height:50px;
+    padding:0 25px;
+}
+.header_icon{ 
+	display:inline-block;
+	width:30%;
+    margin-top:8px;
+}
+.header_icon img{
+	height: 7%;
+    width:7%;
+	padding-left: 20px;
+}
+header nav{
+     float: right;
+}
+nav li{
+    display:inline-block;
+	padding: 17px 10px;
+}
+nav li:hover{
+	background:#3F8DA7;
+	color:white;
+	cursor:pointer;
+}
+#hero{
+	background:url('images/park.jpg') no-repeat;
+	background-size:cover;
+	text-align:center;
+	padding:50px 0;
+	margin-bottom: 50px;
+}
+#hero img{
+	display: block;
+	margin:auto;
+	margin-bottom:25px;
+	border-radius:50%;
+	border:5px solid #3F8DA7;
+}
+#hero h2{
+	font-size:30px;
+	margin-bottom:25px;
+}
+.btn{
+	background:white;
+	border:5px solid #3F8DA7;
+	color:#3F8DA7;
+	padding:5px 10px;
+	text-decoration:none;
+}
+.btn:hover{
+	padding:5px 10px;
+	background:#3F8DA7;
+	color:white;
+}
+.three-col{
+	width:30%;
+	display:inline-block;
+	text-align:center;
+	vertical-align:top;
+	margin:0 10px;
+}
+.three-col img{
+	border-radius:50%;
+	border: 3px solid #3F8DA7;
+	height:200px;
+	width:200px;
+	margin:25px 0;
+}
+.three-col p{
+	margin-bottom:40px;
+}
+footer{
+	background:#3F8DA7;
+	color:white;
+	margin-top:40px;
+	padding:20px 0;
+	text-align:center;
+}
+footer ul{
+	margin:40px 0;
+}
+footer li{
+	display: inline-block;
+	margin:0 1px;
+}
+.link{
+	color:white;
+}
+.link:hover{
+	color:#92E0E5
+}
+.footer-img{
+	width:20%;
+	height:20%;
+}
